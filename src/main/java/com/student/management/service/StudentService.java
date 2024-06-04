@@ -11,4 +11,8 @@ public interface StudentService {
 
     public void addStudent(StudentDto studentDto);
     public List<Student> showAllStudents();
+
+    public Student updateStudent(long id, StudentDto studentdto);
+
+    public Student deleteStudent(long id);
 }
