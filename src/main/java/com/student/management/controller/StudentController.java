@@ -31,7 +31,7 @@ public class StudentController {
         return  studentService.showAllStudents();
    }
 
-// Updating a Student => name, age, email
+// Updating a Student => name, age, email fd
   @PostMapping("/update/{id}")
   public Map<String, Object> updateStudent(@PathVariable long id,@RequestBody StudentDto studentdto){
 
